@@ -8,6 +8,8 @@ fr:
     openid_connect_server_url: Url du serveur OpenID Connect
     scopes: Scopes OpenID Connect (séparés par des virgules)
     client_secret: Secret Client
+    disable_ssl_validation: Désactiver la validation SSL
+    dont_change_group: Ne pas modifier automatiquement le groupe des utilisateurs
     group: Groupes autorisés (laisser vide si tous les utilisateurs sont autorisés)
     admin_group: Groupe d'Admins (les membres de ce groupe seront Administrateurs Redmine)
     dynamic_config_expiry: Fréquence de rafraichissement de la configuration OpenID (1 jour par défaut)
